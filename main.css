@@ -1,0 +1,164 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 60px;
+    border-radius: 100px / 60px;
+    padding: 10px;
+}
+
+header{
+    background: white;
+    position: sticky;
+    top:0;
+  
+
+}
+header::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.container{
+    width: 0 auto;
+}
+.nav-list{
+    float:right;
+   
+}
+
+nav ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 40px;
+    padding-top: 2.5%;
+    position: relative;
+}
+
+nav a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+    
+}
+
+nav a::before{
+    content:"";
+    display: block;
+    width: 0%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    transition: all ease-in-out 260ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.back-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 860px;
+    opacity: 1;
+    visibility: inherit;
+}
+
+.container-1{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+
+}
+
+.box{
+    width:250px;
+    height:100px;
+    margin: 28px;
+    padding: 22px;
+}
+
+.number{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: inherit;
+    color: red;
+}
+
+.text{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: inherit;
+    text-decoration: #090979;
+}
+
+.text-0{
+    color:black;
+    top: 20%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    
+}
+
+.center-0{
+    text-align: center;
+    font-size: 85px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: rgb(32, 31, 31);
+    font-weight: 300;
+    margin:0;
+}
+
+.center-1{
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.pic{
+    width: 100%;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: relative;
+}
+
+
+.text-1{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    top:-17%;
+    left:22%;
+    transform: translate(-50%,50%);
+    position: absolute;
+}
+
+iframe{
+    height: 490px;
+    width: 1140px;
+}
+
+.wrapper{
+    transform:translate(20%,5%);
+}
