@@ -9,13 +9,12 @@ body{
     border-radius: 100px / 60px;
     padding: 10px;
 }
+/*Navbar section*/
 
 header{
-    background: white;
+    background:white;
     position: sticky;
-    top:0;
-  
-
+    top:0;  
 }
 header::after{
     content: "";
@@ -68,20 +67,25 @@ nav a:hover::before{
     width: 100%;
 }
 
+/*Background image setting*/
+
 .back-image{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 860px;
-    opacity: 1;
-    visibility: inherit;
+    height: 420px;
+}
+
+.background-img{
+    width: 100%;
+    height: 420px;
 }
 
 .container-1{
     background-color:whitesmoke;
     width: 100%;
-    height: 170px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -112,10 +116,13 @@ nav a:hover::before{
 
 .text-0{
     color:black;
-    top: 20%;
-    left:50%;
-    position: absolute;
-    transform: translate(-50%,50%);
+    position:absolute;
+    left:0%;
+    top:25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
 }
 
@@ -133,48 +140,72 @@ nav a:hover::before{
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.pic{
+/*Picture and information section*/
+
+.pic-container{
     width: 100%;
-    height: 430px;
+    height: 460px;
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    background-color: grey;
 }
 
+.pic{
+    width:100%;
+    height: 460px;
+}
 
 .text-1{
-    width: 30%;
-    height: 300px;
+    width: 34%;
+    height: 382px;
     background-color: grey;
-    top:-17%;
-    left:22%;
-    transform: translate(-50%,50%);
+    top:8%;
+    left:4%;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    flex-wrap: wrap;
 }
 
 iframe{
-    height: 490px;
-    width: 1220px;
+    height: 470px;
+    width: 60%;
 }
 
 .wrapper{
-    transform:translate(20%,0%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
 }
 
-.sign-up{
+/*sign up box picture section*/
+
+.sign-up-pic{
     width: 100%;
     height: 350px;
 }
+.sign-box{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .text-2{
     width:20%;
     height: 150px;
-    top: 20%;
-    left: 10%;
-    transform: translate(148%,-255%);
-    position: relative;
+    top: 8%;
+    left: 40%;
+    position: absolute;
     font-style: italic;
     color: whitesmoke;
     text-align: center;
@@ -187,20 +218,42 @@ iframe{
 
 
 .pure-form{
-    left:41%;
-    top:-104%;
-    transform: translate(0%,50%);
-    position: relative;
+    left:38%;
+    top: 65%;
+    position: absolute;
 }
 
-/*footer*/
+/*footer section*/
 
 .footer-grids{
     background:#282828;
     padding:3em 3em;
-    width: 100%;
-    height:245px;
+    width: 93%;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
 }
+
+/*sub section of the footer*/
+
+.copy-right-grids{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+}
+.copy-right ul li{
+    display: flex; 
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+
 
 .footer.one{
     width: 20%;
