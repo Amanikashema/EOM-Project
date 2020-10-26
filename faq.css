@@ -10,9 +10,8 @@
 .center-box{
     position: absolute;
     background-color: white;
-    width: 70%;
-    height: 490px;
-    left: 15%;
+    width: 77%;
+    left: 9%;
     top: 8%;
     display:flex;
     flex-direction: column;
@@ -27,4 +26,14 @@ h1{
 
 p{
     color: grey;
+}
+
+@media only screen and (max-width: 500px) {
+    .center-box {
+        height: 588px;
+    }
+
+    .footer-grids{
+        margin-top: 81px;
+    }
 }

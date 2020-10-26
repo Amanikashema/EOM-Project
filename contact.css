@@ -52,6 +52,7 @@ textarea.contact-form-text{
 .form{
     background: #b9ebeb;
     display: grid;
+    height: 518px;
 }
 
 .back-image-1 {
